@@ -1,15 +1,74 @@
-# Smartबाज़ार.
-It is a Java based application that simulates an e-commerce website
-This platform allows users to browse a variety of products , add desired items to their shopping cart, make secure purchases, and manage their orders. These features are all within a single user - friendly interface.
+# SmartBazaar Portfolio
 
+SmartBazaar is a modern e-commerce project with a React + TypeScript + Vite frontend, a small Node/Express API, and a Flask-based experimental backend folder. The app focuses on product discovery, shopping flow, and a visually improved landing experience.
 
-![alt text](https://github.com/Neel123priyansh/Ecommerce/blob/ffb76658e306872bc1901c202e4a43369f082185/img/Screenshot%202025-01-27%20230348.png/?raw=true)
+## Features
+- Responsive landing page with modern UI sections
+- Product browsing for watch and clothing flows
+- Cart page with quantity controls and checkout modal
+- Registration form connected to the Node backend route
+- Separate frontend, Node backend, and Flask backend folders
 
+## Tech Stack
+- Frontend: React, TypeScript, Vite, Tailwind CSS
+- Backend: Node.js, Express, MongoDB, Mongoose
+- Extra backend folder: Flask
 
-# Shopping Page
+## Project Structure
+```text
+smart bazar/
+├── smart/            # Main React frontend
+├── Flask_Backend/    # Flask routes and experimental scripts
+├── img/              # Project screenshots
+└── README.md
+```
 
-![alt text](https://github.com/Neel123priyansh/Ecommerce/blob/2c1154730d530001f1c18eb5d3fe49d21dccabc9/img/Screenshot%202025-01-27%20230510.png/?raw=true)
+## Getting Started
+### 1. Clone the repository
+```bash
+git clone https://github.com/itsaisha17/SmartBazaar-Portfolio.git
+cd "smart bazar"
+```
 
+### 2. Start the frontend
+```bash
+cd smart
+npm install
+npm run dev
+```
+Frontend runs at `http://localhost:5173/`.
 
+### 3. Start the Node backend
+```bash
+cd smart
+npm install express cors mongoose bcryptjs
+node src/Backend/app.js
+```
+Node API runs at `http://localhost:6200/`.
+
+### 4. Start MongoDB
+Make sure MongoDB is running locally because the backend uses:
+`mongodb://localhost:27017/ortontest2`
+
+### 5. Optional Flask backend
+```bash
+cd Flask_Backend
+python app.py
+```
+
+## Current Status
+- Frontend is runnable in Vite dev mode
+- UI has been improved for layout, responsiveness, and presentation
+- Some TypeScript/build issues still exist in older files like `add.tsx`, `add_cloth.tsx`, and a few background components
+- Node backend needs required packages and local MongoDB to fully support form submission
+
+## Notes
+- The root README now reflects the actual stack; the project is not Java-based
+- `smart/README.md` still contains the default Vite template and can be cleaned later if needed
+
+## Future Improvements
+- Fix all remaining TypeScript build errors
+- Improve product detail pages and backend integration
+- Add better README screenshots and deployment instructions
 
 
