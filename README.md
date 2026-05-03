@@ -1,6 +1,9 @@
 # SmartBazaar Portfolio
 
 SmartBazaar is a modern e-commerce project with a React + TypeScript + Vite frontend, a small Node/Express API, and a Flask-based experimental backend folder. The app focuses on product discovery, shopping flow, and a visually improved landing experience.
+<img width="1365" height="767" alt="WhatsApp Image 2026-05-03 at 7 18 30 PM" src="https://github.com/user-attachments/assets/88820c0c-d9bf-43cc-aa6e-dfc1af47c38e" />
+<img width="1365" height="767" alt="WhatsApp Image 2026-05-03 at 7 18 30 PM (1)" src="https://github.com/user-attachments/assets/b012a01a-4bde-4153-ae94-e8aceeee1fed" />
+
 
 ## Features
 - Responsive landing page with modern UI sections
